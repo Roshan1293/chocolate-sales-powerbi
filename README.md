@@ -1,105 +1,95 @@
-# Chocolate Sales Analysis - Power BI Report
+# 🍫 Chocolate Sales Analysis - Excel Dashboard
 
-Interactive Power BI dashboard analyzing chocolate product sales across multiple countries from **January 2025 to September 2026**.
+[![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)]
+[![Data Visualization](https://img.shields.io/badge/Skill-Data%20Visualization-FF9900?style=for-the-badge&logo=databricks&logoColor=white)]
+[![Pivot Tables](https://img.shields.io/badge/Feature-Pivot%20Tables%20%2B%20Slicers-0078D4?style=for-the-badge)]
 
-![Power BI Report](images/powerbi-report.jpg)
+Interactive dashboard built in **Microsoft Excel** analyzing chocolate product sales across multiple countries from **January 2025 to April 2026**.
 
-## Report Overview
+![Excel Dashboard](images/powerbi-report.jpg)
 
-| Metric                | Value                          |
-|-----------------------|--------------------------------|
-| Total Sales Amount    | $21.53 Million                 |
-| Total Boxes Sold      | ~2 Million                     |
-| Date Range            | 02 Jan 2025 – 30 Apr 2026      |
-| Records               | 4,998 transactions             |
+## 📊 Project Overview
 
-### Key Visuals
+| Metric | Value |
+| --- | --- |
+| **💰 Total Sales Amount** | $21.53 Million |
+| **📦 Total Boxes Sold** | ~2 Million |
+| **📅 Date Range** | 02 Jan 2025 – 30 Apr 2026 |
+| **📝 Records** | 4,998 transactions |
 
-1. **How much money we make every month?**  
-   Area chart showing monthly revenue trends (Jan 2025 – Mar 2026).
+### 📈 Key Visuals Created in Excel
 
-2. **Sum of Amount by Product**  
-   Horizontal bar chart ranking products by revenue.  
-   Top performers: Orange Choco, 99% Dark & Pure, Drinking Coco, Peanut Butter Cubes.
-
-3. **Sum of Amount by Country**  
-   Donut chart showing revenue share:  
-   - UK – 26.18%  
-   - USA – 22.93%  
-   - India – 16.63%  
-   - Canada, Australia, New Zealand
-
-4. **Sales Person Performance**  
-   Table of top sales representatives by total amount (e.g. Brien Boise leading at ~1.67M).
-
----
-
-## Project Structure
-
-```
-chocolate-sales-powerbi/
-├── data/
-│   ├── chocolate_sales_data.csv           # Clean CSV version
-│   └── sample-chocolate-sales-data-1.xlsx # Original Excel source
-├── images/
-│   ├── powerbi-report-desktop.jpg
-│   └── powerbi-report-filtered.jpg
-└── README.md
-```
+1. **📉 Monthly Revenue Trend**  
+   Area chart showing monthly sales performance from Jan 2025 – Mar 2026.
+2. **🏆 Top Products by Revenue**  
+   Horizontal bar chart. Top performers: Orange Choco, 99% Dark & Pure, Drinking Coco, Peanut Butter Cubes.
+3. **🌍 Revenue by Country**  
+   Donut chart showing country-wise share:  
+   - 🇬🇧 UK – 26.18%  
+   - 🇺🇸 USA – 22.93%  
+   - 🇮🇳 India – 16.63%  
+   - 🇨🇦 Canada, 🇦🇺 Australia, 🇳🇿 New Zealand
+4. **👨‍💼 Sales Person Performance**  
+   Table ranking top sales reps. Brien Boise leading at ~$1.67M.
 
 ---
 
-## Data Dictionary
+## 🗂️ Project Structure
 
-| Column         | Description                              | Type    |
-|----------------|------------------------------------------|---------|
-| Sales Person   | Name of the sales representative         | Text    |
-| Product        | Chocolate product name                     | Text    |
-| Country        | Sales country                            | Text    |
-| Date           | Order date                               | Date    |
-| Amount         | Sales amount                             | Decimal |
-| Boxes          | Number of boxes sold                     | Integer |
-| Order Status   | Delivered / Shipped / Cancelled / Placed | Text    |
+
+---
+
+## 📚 Data Dictionary
+
+| Column | Description | Type |
+| --- | --- | --- |
+| Sales Person | Name of the sales representative | Text |
+| Product | Chocolate product name | Text |
+| Country | Sales country | Text |
+| Date | Order date | Date |
+| Amount | Sales amount | Decimal |
+| Boxes | Number of boxes sold | Integer |
+| Order Status | Delivered / Shipped / Cancelled / Placed | Text |
 
 **Order Status distribution:**
-- Delivered: 4,138
-- Shipped: 433
-- Cancelled: 227
-- Placed: 200
+- ✅ Delivered: 4,138
+- 🚚 Shipped: 433 
+- ❌ Cancelled: 227
+- 🛒 Placed: 200
 
 ---
 
-## How to Recreate the Report in Power BI
+## 🛠️ How to Recreate the Dashboard in Excel
 
-1. Open **Power BI Desktop**.
-2. Get Data → Excel or CSV → select `data/chocolate_sales_data.csv`.
-3. Load the data.
-4. Create the following visuals:
-   - Card: Sum of Amount
-   - Card: Sum of Boxes
-   - Area Chart: Date (Month) vs Sum of Amount
-   - Bar Chart: Product vs Sum of Amount
-   - Donut Chart: Country vs Sum of Amount
-   - Table: Sales Person + Sum of Amount
-5. Add a Date slicer (02/01/2025 to 30/04/2026).
-
----
-
-## Sample Insights
-
-- Brien Boise is one of the top performers.
-- Orange Choco and dark chocolate variants generate the highest revenue.
-- UK and USA dominate the market share.
-- Clear seasonal peaks are visible in the monthly revenue chart.
+1. Open **Microsoft Excel**.
+2. Go to `Data > Get Data > From File` → select `data/chocolate_sales_data.csv`.
+3. Load data into a Table and create a **Pivot Table**.
+4. Insert the following visuals:
+   - KPI Cards: `SUM of Amount`, `SUM of Boxes`
+   - Area Chart: `Month of Date` vs `SUM of Amount`
+   - Bar Chart: `Product` vs `SUM of Amount`
+   - Donut Chart: `Country` vs `SUM of Amount`
+   - Table: `Sales Person` + `SUM of Amount`
+5. Add **Slicers** for Date and Country to make it interactive.
 
 ---
 
-## Tools Used
+## 💡 Key Insights
 
-- Microsoft Power BI Desktop
-- Excel / CSV
-- Data period: January 2025 – September 2026
+- 🥇 Brien Boise is one of the top performers.
+- 🍊 Orange Choco and dark chocolate variants generate the highest revenue.
+- 🌍 UK and USA dominate the market share.
+- 📈 Clear seasonal peaks are visible in the monthly revenue chart.
 
 ---
 
-**Created for GitHub portfolio**
+## 🧰 Tools Used
+
+- **Microsoft Excel** - Data Cleaning, Pivot Tables, Charts, Slicers
+- **Excel Data Visualization** - Area Chart, Bar Chart, Donut Chart
+
+**Data period:** January 2025 – April 2026
+
+---
+
+**Created for GitHub portfolio** ⭐
