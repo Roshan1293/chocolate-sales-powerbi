@@ -6,8 +6,8 @@
 
 Interactive dashboard built in **Microsoft Excel** analyzing chocolate product sales across multiple countries from **January 2025 to April 2026**.
 
-![Excel Dashboard](images/powerbi-report.jpg)
 
+![Excel Dashboard](IMG_20260813_151950.jpg)
 ## 📊 Project Overview
 
 | Metric | Value |
@@ -35,7 +35,6 @@ Interactive dashboard built in **Microsoft Excel** analyzing chocolate product s
 ---
 
 ## 🗂️ Project Structure
-
 
 ---
 
@@ -88,8 +87,4 @@ Interactive dashboard built in **Microsoft Excel** analyzing chocolate product s
 - **Microsoft Excel** - Data Cleaning, Pivot Tables, Charts, Slicers
 - **Excel Data Visualization** - Area Chart, Bar Chart, Donut Chart
 
-**Data period:** January 2025 – April 2026
-
----
-
-**Created for GitHub portfolio** ⭐
+**Data period:** January 2026 – April 2026
