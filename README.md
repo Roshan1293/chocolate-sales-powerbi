@@ -7,14 +7,13 @@
 Interactive dashboard built in **Microsoft Excel** analyzing chocolate product sales across multiple countries from **January 2025 to April 2026**.
 
 
-    ![Chocolate Sales Dashboard](chocolate-dashboard.png)
-## 📊 Project Overview
+    ![Chocolate Sales Dashboard]IMG_20260813_151950.jpg
 
 | Metric | Value |
 | --- | --- |
 | **💰 Total Sales Amount** | $21.53 Million |
 | **📦 Total Boxes Sold** | ~2 Million |
-| **📅 Date Range** | 02 Jan 2026 – 30 Apr 2026 |
+| **📅 Date Range** | 02 Jan 2025 – 30 Apr 2026 |
 | **📝 Records** | 4,998 transactions |
 
 ### 📈 Key Visuals Created in Excel
