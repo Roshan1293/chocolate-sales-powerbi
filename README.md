@@ -7,7 +7,7 @@
 Interactive dashboard built in **Microsoft Excel** analyzing chocolate product sales across multiple countries from **January 2025 to April 2026**.
 
 
-    ![Chocolate Sales Dashboard]IMG_20260813_151950.jpg
+![Chocolate Sales Dashboard](IMG_20260813_151950.jpg)
 
 | Metric | Value |
 | --- | --- |
