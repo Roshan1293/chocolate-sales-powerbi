@@ -1,9 +1,5 @@
 # 🍫 Chocolate Sales Analysis - Excel Dashboard
 
-[![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)]
-[![Data Visualization](https://img.shields.io/badge/Skill-Data%20Visualization-FF9900?style=for-the-badge&logo=databricks&logoColor=white)]
-[![Pivot Tables](https://img.shields.io/badge/Feature-Pivot%20Tables%20%2B%20Slicers-0078D4?style=for-the-badge)]
-
 Interactive dashboard built in **Microsoft Excel** analyzing chocolate product sales across multiple countries from **January 2025 to April 2026**.
 
 
